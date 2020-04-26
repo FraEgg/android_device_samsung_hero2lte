@@ -20,3 +20,15 @@ LOCAL_PATH := device/samsung/hero2lte
 ###########################################################
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+# AndroidBw
+TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 1440
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.locale.language=de_DE \
+    ro.product.locale.region=DE
+
+PRODUCT_PACKAGES += \
+	openvpn_client
+#	wireguard_client
