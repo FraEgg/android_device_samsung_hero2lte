@@ -31,6 +31,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
 	openvpn_client \
-	BwMessenger \
 	afreerdp
 #	wireguard_client
